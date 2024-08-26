@@ -1,0 +1,189 @@
+/* Login */
+.bgLogin {
+  min-height: 100vh;
+}
+
+.loginNav {
+  background-color: #25262b;
+  min-height: 10vh;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navHead {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mIcon {
+  color: #25262b;
+  padding: 3px;
+  font-size: 15px;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  margin-right: 5px;
+}
+
+.loginCont {
+  background-color: black;
+  margin: 0px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.loginForm {
+  background-color: #25262b;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #343a40;
+}
+
+.loginHead {
+  color: white;
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: Open Sans;
+}
+
+.loginGoogleBtn {
+  border: 1px solid #707172;
+  color: #cccccc;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  margin: 0px;
+  height: 40px;
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.googleIcon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.loginCreateBtn {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  height: 45px;
+  width: 160px;
+  border: 0.5px solid blue;
+  border-radius: 4px;
+  background: linear-gradient(
+    91.73deg,
+    #4b63dd -2.99%,
+    rgba(5, 36, 191, 0.99) 95.8%
+  );
+  margin-bottom: 15px;
+}
+
+.loginPara {
+  color: #909296;
+  font-size: 14px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.signInPara {
+  color: #c1c2c5;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .loginCont {
+    min-height: 90vh;
+  }
+
+  .navHead {
+    font-size: 40px;
+  }
+
+  .mIcon {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .loginForm {
+    width: 40%;
+    height: 300px;
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+
+  .loginHead {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .loginGoogleBtn {
+    height: 55px;
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0.5px 0px 0.5px 1px #909296 inset;
+  }
+
+  .googleIcon {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .loginCreateBtn {
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  .loginPara {
+    font-size: 18px;
+  }
+
+  .signInPara {
+    font-size: 22px;
+  }
+}
+.link {
+  text-decoration: none;
+  color: #c1c2c5;
+}

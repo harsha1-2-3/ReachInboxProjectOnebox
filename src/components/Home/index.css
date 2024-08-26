@@ -1,0 +1,763 @@
+/* Onebox  */
+.bgOnebox {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.bgSidebar {
+  background-color: black;
+  width: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: auto;
+  height: 92.5vh;
+}
+.bgSidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sideLogoBtn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+}
+
+.sideMIcon {
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.sideMenuCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+}
+
+.sideMenuBtn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  margin-bottom: 40px;
+}
+
+.sideMenuIcon {
+  color: #cccccc;
+  font-size: 25px;
+  height: 20px;
+  width: 20px;
+  margin: 0px;
+}
+.sideMenuIcon:hover {
+  height: 26px;
+  width: 26px;
+}
+.activeSideMenuIcon {
+  color: #4b63dd;
+  height: 30px;
+  width: 30px;
+}
+.sideProfile {
+  background-color: green;
+  border-radius: 50%;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sidePara {
+  color: white;
+}
+
+.bgMailCont {
+  min-height: 100vh;
+}
+
+.topCont {
+  background-color: #25262b;
+  height: 7vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 93vw;
+  border: 0px;
+  padding-left: 30px;
+}
+
+.topHead {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.topTextCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 28%;
+}
+
+.themeCont {
+  border: 1px solid #c1c2c5;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+}
+
+.themeBtn {
+  color: white;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+}
+
+.themeIconSun {
+  color: yellow;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.themeIconMoon {
+  color: #c1c2c5;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.topPara {
+  color: white;
+  font-size: 14px;
+  margin: 0px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+.linkLogout {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  height: 25px;
+  width: 25px;
+}
+.linkLogout:hover {
+  height: 30px;
+  width: 30px;
+}
+.msgsReplyUserCont {
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.msgsCont {
+  border: 0.5px solid #cccccc;
+  height: 91vh;
+  color: white;
+  background-color: black;
+  width: 28vw;
+  padding: 25px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.msgsCont::-webkit-scrollbar {
+  display: none;
+}
+
+.msgsAllCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.allCont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.allHead {
+  color: #4285f4;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+
+.allIcon {
+  color: #4285f4;
+  font-size: 20px;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin: 0px;
+}
+
+.allParaCont {
+  color: #cccccc;
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.allSpan {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.refreshCont {
+  background-color: #25262b;
+  border-radius: 5px;
+  align-self: flex-start;
+  padding: px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 37px;
+  width: 37px;
+}
+
+.searchCont {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #23272c;
+  border-radius: 5px;
+  margin: 0px;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+.searchIcon {
+  color: #cccccc;
+  font-size: 15px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+
+.inputBox {
+  background-color: transparent;
+  border: 0px;
+  cursor: text;
+  outline: none;
+  width: 100%;
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.numNewCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.numCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.numPara {
+  color: #4285f4;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px;
+  background-color: #23272c;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.numHead {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.newHead {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mailsUl {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.mailLi {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+  border-top: 1px solid #c1c2c5;
+}
+
+.activeMailLi {
+  border: 3px solid blue;
+  border-radius: 8px;
+}
+
+.fromDateCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.statusIcon {
+  color: blue;
+  font-size: 18px;
+  height: 18px;
+  width: 18px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.fromContLi {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.fromHeadLi {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.fromParaLi {
+  color: #c1c2c5;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.dateParaLi {
+  color: #c1c2c5;
+  font-size: 15px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.mailStatusContLi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statusPara {
+  height: 27px;
+  width: 150px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 10px;
+  background-color: #23272c;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.campPara {
+  height: 33px;
+  width: 180px;
+  font-size: 17px;
+  color: #57e0a6;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 10px;
+  background-color: #23272c;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.replyCont {
+  border: 0.5px solid #cccccc;
+  height: 91vh;
+  color: white;
+  background-color: black;
+  width: 42.5vw;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.replyFromCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #c1c2c5;
+}
+
+.replyTextCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.replyHead {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.replyPara {
+  color: #ffffff66;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.replyStatusCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteBtn {
+  color: red;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #23272c;
+}
+
+.deleteIcon {
+  color: red;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.lineCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lineHr {
+  border: 0.5px solid #c1c2c5;
+  width: 50%;
+}
+
+.linePara {
+  background-color: #23272c;
+  color: #c1c2c5;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.replyBodyCont {
+  background-color: #141517;
+  padding: 25px;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.bodyHeadCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bodyHead {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.bodyPara {
+  color: #aeaeae;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.bodyPara2 {
+  color: #e1e0e0;
+  font-size: 16px;
+  margin: 0px;
+  line-height: 25px;
+}
+
+.replyBtn {
+  background: linear-gradient(
+    91.73deg,
+    #4b63dd -2.99%,
+    rgba(5, 36, 191, 0.99) 95.8%
+  );
+  margin-left: 10px;
+  margin-top: 70px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  height: 45px;
+  width: 140px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.replyIcon {
+  color: white;
+  font-size: 17px;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.userCont {
+  border: 0.5px solid #cccccc;
+  height: 91vh;
+  color: white;
+  background-color: black;
+  width: 25vw;
+  padding: 5px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.userCont::-webkit-scrollbar {
+  display: none;
+}
+
+.leadCont {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.leadHead {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  background-color: #23272c;
+  border-radius: 9px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 25px;
+}
+
+.detailsHead {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.detailsPara {
+  color: #b9b9b9;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.activityCont {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.activityHead {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  background-color: #23272c;
+  border-radius: 9px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.campCont {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campHead {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.stepsCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.stepsPara {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.eachStepCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.stepIcon {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  background-color: #23272c;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+.eachStep {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+.eachStepText {
+  display: flex;
+  flex-direction: column;
+}
+
+.eachStepHead {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 12px;
+}
+
+.eachStepIcon {
+  color: yellow;
+  font-size: 17px;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.eachStepPara {
+  color: #b9b9b9;
+  font-size: 18px;
+  margin: 0px;
+}
