@@ -6,7 +6,6 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { FaInbox } from "react-icons/fa";
 import { TbLogout2 } from "react-icons/tb";
-import { IoStatsChart } from "react-icons/io5";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoMdRefresh } from "react-icons/io";
 import { FaCircle } from "react-icons/fa";
