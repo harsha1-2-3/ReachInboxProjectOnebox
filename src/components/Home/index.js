@@ -384,7 +384,7 @@ class Home extends Component {
                 <div className="eachStep">
                   <FaEnvelope className="stepIcon" />
                   <div className="eachStepText">
-                    <h1 className="eachStepHead">Step1: Email</h1>
+                    <h1 className="eachStepHead">Step 3: Email</h1>
                     <p className="eachStepPara">
                       <FaEnvelopeOpen className="eachStepIcon" />
                       Sent 7rd, Feb
